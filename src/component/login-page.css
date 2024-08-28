@@ -1,0 +1,94 @@
+.main-container {
+  font-family: Arial;
+  border: solid 3px #ccc;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px auto;
+  margin-top: 150px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-container {
+  border-radius: 20px 0 0 20px;
+  background-color: #52dc4f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.right-container {
+  border-radius: 0 20px 20px 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.right-inside-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.jupiter-img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 2s;
+  
+}
+.password-button,
+.email-button{
+  background-color:white;
+  color: rgb(21, 1, 1);
+  padding: 14px 20px;
+  margin: 3px 0;
+  border: solid 1px #ccc;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+.sign-in-button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 3px;
+  margin-left: 75px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 100px;
+}
+.forget-password-link{
+  color: #7e72cb;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.forget-password-link:hover{
+  color: #010008;
+  text-decoration: underline;
+}
+.jupiter-img:hover{
+  background-color:#ffffff;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+} 
